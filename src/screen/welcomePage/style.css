@@ -1,0 +1,22 @@
+.welcomePageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardContainerNotShared{
+    padding: 20px;
+}
+.cardContainerNotShared h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: #0223be;
+}
+.GlobalItemsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+

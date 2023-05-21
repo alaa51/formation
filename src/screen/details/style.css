@@ -1,0 +1,22 @@
+.detailsContainer{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detailsContainer img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.detailsContainer p{
+    font-size: 25px;
+    color: red;
+    font-weight: 800;
+}
+.detailsContainer h1{
+    font-size: 35px;
+    color: blue;
+    font-weight: 800;
+}

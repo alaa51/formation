@@ -1,0 +1,38 @@
+.cardContainer{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 230px;
+    cursor: pointer;
+}
+.sharedImage{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 800;
+    color: #0223be;
+}
+.price {
+    font-size: 18px;
+    font-weight: 800;
+}
+.cardContainer:hover{
+    height: 300px;
+    background-color: rgba(0,0,0,0.2);
+    border-width: 0;
+
+}
+
+.cardContainer h1{
+    font-size: 28px;
+    font-weight: 500;
+    color: #0223be;
+}
